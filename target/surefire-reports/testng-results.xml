@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="6" ignored="6" total="21" passed="7" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-11T00:45:10 IST" name="Suite" finished-at="2024-04-11T00:45:27 IST" duration-ms="17093">
+    <groups>
+    </groups>
+    <test started-at="2024-04-11T00:45:10 IST" name="Test" finished-at="2024-04-11T00:45:27 IST" duration-ms="17093">
+      <class name="Test.BasicTest1">
+        <test-method is-config="true" signature="BeforeSuiteMethod(java.lang.String)[pri:0, instance:Test.BasicTest1@b9b00e0]" started-at="2024-04-11T00:45:07 IST" name="BeforeSuiteMethod" finished-at="2024-04-11T00:45:10 IST" duration-ms="3163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuiteMethod -->
+        <test-method is-config="true" signature="BeforeTestMethod()[pri:0, instance:Test.BasicTest1@b9b00e0]" started-at="2024-04-11T00:45:10 IST" name="BeforeTestMethod" finished-at="2024-04-11T00:45:10 IST" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTestMethod -->
+        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:Test.BasicTest1@b9b00e0]" started-at="2024-04-11T00:45:10 IST" name="beforeClassMethod" finished-at="2024-04-11T00:45:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@b9b00e0]" started-at="2024-04-11T00:45:10 IST" name="BeforeMethodMethod" finished-at="2024-04-11T00:45:10 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=BasicTest1.Method1()[pri:0, instance:Test.BasicTest1@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodMethod -->
+        <test-method retried="true" signature="Method1()[pri:0, instance:Test.BasicTest1@b9b00e0]" started-at="2024-04-11T00:45:10 IST" name="Method1" finished-at="2024-04-11T00:45:12 IST" duration-ms="1814" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at Test.BasicTest1.Method1(BasicTest1.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method1 -->
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@b9b00e0]" started-at="2024-04-11T00:45:12 IST" name="AfterMethodMethod" finished-at="2024-04-11T00:45:12 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Method1 status=SKIP method=BasicTest1.Method1()[pri:0, instance:Test.BasicTest1@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodMethod -->
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@b9b00e0]" started-at="2024-04-11T00:45:12 IST" name="BeforeMethodMethod" finished-at="2024-04-11T00:45:12 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=BasicTest1.Method1()[pri:0, instance:Test.BasicTest1@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodMethod -->
+        <test-method retried="true" signature="Method1()[pri:0, instance:Test.BasicTest1@b9b00e0]" started-at="2024-04-11T00:45:12 IST" name="Method1" finished-at="2024-04-11T00:45:13 IST" duration-ms="1064" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at Test.BasicTest1.Method1(BasicTest1.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method1 -->
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@b9b00e0]" started-at="2024-04-11T00:45:13 IST" name="AfterMethodMethod" finished-at="2024-04-11T00:45:13 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Method1 status=SKIP method=BasicTest1.Method1()[pri:0, instance:Test.BasicTest1@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodMethod -->
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@b9b00e0]" started-at="2024-04-11T00:45:13 IST" name="BeforeMethodMethod" finished-at="2024-04-11T00:45:13 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=BasicTest1.Method1()[pri:0, instance:Test.BasicTest1@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodMethod -->
+        <test-method retried="true" signature="Method1()[pri:0, instance:Test.BasicTest1@b9b00e0]" started-at="2024-04-11T00:45:13 IST" name="Method1" finished-at="2024-04-11T00:45:14 IST" duration-ms="804" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at Test.BasicTest1.Method1(BasicTest1.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method1 -->
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@b9b00e0]" started-at="2024-04-11T00:45:14 IST" name="AfterMethodMethod" finished-at="2024-04-11T00:45:14 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Method1 status=SKIP method=BasicTest1.Method1()[pri:0, instance:Test.BasicTest1@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodMethod -->
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@b9b00e0]" started-at="2024-04-11T00:45:14 IST" name="BeforeMethodMethod" finished-at="2024-04-11T00:45:14 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=BasicTest1.Method1()[pri:0, instance:Test.BasicTest1@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodMethod -->
+        <test-method signature="Method1()[pri:0, instance:Test.BasicTest1@b9b00e0]" started-at="2024-04-11T00:45:14 IST" name="Method1" finished-at="2024-04-11T00:45:15 IST" duration-ms="633" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at Test.BasicTest1.Method1(BasicTest1.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method1 -->
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@b9b00e0]" started-at="2024-04-11T00:45:15 IST" name="AfterMethodMethod" finished-at="2024-04-11T00:45:15 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Method1 status=FAILURE method=BasicTest1.Method1()[pri:0, instance:Test.BasicTest1@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodMethod -->
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@b9b00e0]" started-at="2024-04-11T00:45:15 IST" name="BeforeMethodMethod" finished-at="2024-04-11T00:45:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=BasicTest1.Method2()[pri:0, instance:Test.BasicTest1@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodMethod -->
+        <test-method signature="Method2()[pri:0, instance:Test.BasicTest1@b9b00e0]" started-at="2024-04-11T00:45:15 IST" name="Method2" finished-at="2024-04-11T00:45:16 IST" duration-ms="1625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method2 -->
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@b9b00e0]" started-at="2024-04-11T00:45:16 IST" name="AfterMethodMethod" finished-at="2024-04-11T00:45:16 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Method2 status=SUCCESS method=BasicTest1.Method2()[pri:0, instance:Test.BasicTest1@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodMethod -->
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@b9b00e0]" started-at="2024-04-11T00:45:16 IST" name="BeforeMethodMethod" finished-at="2024-04-11T00:45:16 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=BasicTest1.Method3()[pri:0, instance:Test.BasicTest1@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodMethod -->
+        <test-method signature="Method3()[pri:0, instance:Test.BasicTest1@b9b00e0]" started-at="2024-04-11T00:45:16 IST" name="Method3" finished-at="2024-04-11T00:45:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method3 -->
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@b9b00e0]" started-at="2024-04-11T00:45:16 IST" name="AfterMethodMethod" finished-at="2024-04-11T00:45:16 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Method3 status=SUCCESS method=BasicTest1.Method3()[pri:0, instance:Test.BasicTest1@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodMethod -->
+        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:Test.BasicTest1@b9b00e0]" started-at="2024-04-11T00:45:16 IST" name="afterClassMethod" finished-at="2024-04-11T00:45:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassMethod -->
+        <test-method is-config="true" signature="AfterTestMethod()[pri:0, instance:Test.BasicTest1@b9b00e0]" started-at="2024-04-11T00:45:27 IST" name="AfterTestMethod" finished-at="2024-04-11T00:45:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTestMethod -->
+        <test-method is-config="true" signature="AfterSuiteMethod()[pri:0, instance:Test.BasicTest1@b9b00e0]" started-at="2024-04-11T00:45:27 IST" name="AfterSuiteMethod" finished-at="2024-04-11T00:45:28 IST" duration-ms="1002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuiteMethod -->
+      </class> <!-- Test.BasicTest1 -->
+      <class name="Test.BasicTest2">
+        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:Test.BasicTest2@783a467b]" started-at="2024-04-11T00:45:16 IST" name="beforeClassMethod" finished-at="2024-04-11T00:45:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@783a467b]" started-at="2024-04-11T00:45:16 IST" name="BeforeMethodMethod" finished-at="2024-04-11T00:45:16 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=BasicTest2.Method4()[pri:0, instance:Test.BasicTest2@783a467b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodMethod -->
+        <test-method retried="true" signature="Method4()[pri:0, instance:Test.BasicTest2@783a467b]" started-at="2024-04-11T00:45:16 IST" name="Method4" finished-at="2024-04-11T00:45:20 IST" duration-ms="3894" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at Test.BasicTest2.Method4(BasicTest2.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method4 -->
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@783a467b]" started-at="2024-04-11T00:45:20 IST" name="AfterMethodMethod" finished-at="2024-04-11T00:45:20 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Method4 status=SKIP method=BasicTest2.Method4()[pri:0, instance:Test.BasicTest2@783a467b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodMethod -->
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@783a467b]" started-at="2024-04-11T00:45:20 IST" name="BeforeMethodMethod" finished-at="2024-04-11T00:45:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=BasicTest2.Method4()[pri:0, instance:Test.BasicTest2@783a467b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodMethod -->
+        <test-method retried="true" signature="Method4()[pri:0, instance:Test.BasicTest2@783a467b]" started-at="2024-04-11T00:45:20 IST" name="Method4" finished-at="2024-04-11T00:45:22 IST" duration-ms="1804" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at Test.BasicTest2.Method4(BasicTest2.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method4 -->
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@783a467b]" started-at="2024-04-11T00:45:22 IST" name="AfterMethodMethod" finished-at="2024-04-11T00:45:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Method4 status=SKIP method=BasicTest2.Method4()[pri:0, instance:Test.BasicTest2@783a467b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodMethod -->
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@783a467b]" started-at="2024-04-11T00:45:22 IST" name="BeforeMethodMethod" finished-at="2024-04-11T00:45:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=BasicTest2.Method4()[pri:0, instance:Test.BasicTest2@783a467b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodMethod -->
+        <test-method retried="true" signature="Method4()[pri:0, instance:Test.BasicTest2@783a467b]" started-at="2024-04-11T00:45:22 IST" name="Method4" finished-at="2024-04-11T00:45:24 IST" duration-ms="1863" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at Test.BasicTest2.Method4(BasicTest2.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method4 -->
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@783a467b]" started-at="2024-04-11T00:45:24 IST" name="AfterMethodMethod" finished-at="2024-04-11T00:45:24 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Method4 status=SKIP method=BasicTest2.Method4()[pri:0, instance:Test.BasicTest2@783a467b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodMethod -->
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@783a467b]" started-at="2024-04-11T00:45:24 IST" name="BeforeMethodMethod" finished-at="2024-04-11T00:45:24 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=BasicTest2.Method4()[pri:0, instance:Test.BasicTest2@783a467b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodMethod -->
+        <test-method signature="Method4()[pri:0, instance:Test.BasicTest2@783a467b]" started-at="2024-04-11T00:45:24 IST" name="Method4" finished-at="2024-04-11T00:45:26 IST" duration-ms="2011" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at Test.BasicTest2.Method4(BasicTest2.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method4 -->
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@783a467b]" started-at="2024-04-11T00:45:27 IST" name="AfterMethodMethod" finished-at="2024-04-11T00:45:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Method4 status=FAILURE method=BasicTest2.Method4()[pri:0, instance:Test.BasicTest2@783a467b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodMethod -->
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@783a467b]" started-at="2024-04-11T00:45:27 IST" name="BeforeMethodMethod" finished-at="2024-04-11T00:45:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=BasicTest2.Method5()[pri:0, instance:Test.BasicTest2@783a467b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodMethod -->
+        <test-method signature="Method5()[pri:0, instance:Test.BasicTest2@783a467b]" started-at="2024-04-11T00:45:27 IST" name="Method5" finished-at="2024-04-11T00:45:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method5 -->
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@783a467b]" started-at="2024-04-11T00:45:27 IST" name="AfterMethodMethod" finished-at="2024-04-11T00:45:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Method5 status=SUCCESS method=BasicTest2.Method5()[pri:0, instance:Test.BasicTest2@783a467b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodMethod -->
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@783a467b]" started-at="2024-04-11T00:45:27 IST" name="BeforeMethodMethod" finished-at="2024-04-11T00:45:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=BasicTest2.Method6()[pri:0, instance:Test.BasicTest2@783a467b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodMethod -->
+        <test-method signature="Method6()[pri:0, instance:Test.BasicTest2@783a467b]" started-at="2024-04-11T00:45:27 IST" name="Method6" finished-at="2024-04-11T00:45:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method6 -->
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@783a467b]" started-at="2024-04-11T00:45:27 IST" name="AfterMethodMethod" finished-at="2024-04-11T00:45:27 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Method6 status=SUCCESS method=BasicTest2.Method6()[pri:0, instance:Test.BasicTest2@783a467b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodMethod -->
+        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:Test.BasicTest2@783a467b]" started-at="2024-04-11T00:45:27 IST" name="afterClassMethod" finished-at="2024-04-11T00:45:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassMethod -->
+      </class> <!-- Test.BasicTest2 -->
+      <class name="Test.BasicTest3">
+        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:Test.BasicTest3@272113c4]" started-at="2024-04-11T00:45:27 IST" name="beforeClassMethod" finished-at="2024-04-11T00:45:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest3@272113c4]" started-at="2024-04-11T00:45:27 IST" name="BeforeMethodMethod" finished-at="2024-04-11T00:45:27 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=BasicTest3.Method7()[pri:0, instance:Test.BasicTest3@272113c4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodMethod -->
+        <test-method signature="Method7()[pri:0, instance:Test.BasicTest3@272113c4]" started-at="2024-04-11T00:45:27 IST" name="Method7" finished-at="2024-04-11T00:45:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method7 -->
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest3@272113c4]" started-at="2024-04-11T00:45:27 IST" name="AfterMethodMethod" finished-at="2024-04-11T00:45:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Method7 status=SUCCESS method=BasicTest3.Method7()[pri:0, instance:Test.BasicTest3@272113c4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodMethod -->
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest3@272113c4]" started-at="2024-04-11T00:45:27 IST" name="BeforeMethodMethod" finished-at="2024-04-11T00:45:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=BasicTest3.Method8()[pri:0, instance:Test.BasicTest3@272113c4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodMethod -->
+        <test-method signature="Method8()[pri:0, instance:Test.BasicTest3@272113c4]" started-at="2024-04-11T00:45:27 IST" name="Method8" finished-at="2024-04-11T00:45:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method8 -->
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest3@272113c4]" started-at="2024-04-11T00:45:27 IST" name="AfterMethodMethod" finished-at="2024-04-11T00:45:27 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Method8 status=SUCCESS method=BasicTest3.Method8()[pri:0, instance:Test.BasicTest3@272113c4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodMethod -->
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest3@272113c4]" started-at="2024-04-11T00:45:27 IST" name="BeforeMethodMethod" finished-at="2024-04-11T00:45:27 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=BasicTest3.Method9()[pri:0, instance:Test.BasicTest3@272113c4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodMethod -->
+        <test-method signature="Method9()[pri:0, instance:Test.BasicTest3@272113c4]" started-at="2024-04-11T00:45:27 IST" name="Method9" finished-at="2024-04-11T00:45:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method9 -->
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest3@272113c4]" started-at="2024-04-11T00:45:27 IST" name="AfterMethodMethod" finished-at="2024-04-11T00:45:27 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Method9 status=SUCCESS method=BasicTest3.Method9()[pri:0, instance:Test.BasicTest3@272113c4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodMethod -->
+        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:Test.BasicTest3@272113c4]" started-at="2024-04-11T00:45:27 IST" name="afterClassMethod" finished-at="2024-04-11T00:45:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassMethod -->
+      </class> <!-- Test.BasicTest3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
