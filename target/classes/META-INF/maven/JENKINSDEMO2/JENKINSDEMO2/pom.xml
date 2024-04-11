@@ -50,6 +50,13 @@
     <scope>compile</scope>
 </dependency>
 
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-edge-driver -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-edge-driver</artifactId>
+    <version>4.19.1</version>
+</dependency>
+
 
 </dependencies>
 
