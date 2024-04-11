@@ -4,19 +4,6 @@
   <parameter name="browser" value="Chrome"/>
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="Test.BasicTest2">
-        <methods>
-          <include name="beforeClassMethod"/>
-          <include name="BeforeSuiteMethod"/>
-          <include name="AfterTestMethod"/>
-          <include name="Method4"/>
-          <include name="BeforeMethodMethod"/>
-          <include name="AfterMethodMethod"/>
-          <include name="afterClassMethod"/>
-          <include name="AfterSuiteMethod"/>
-          <include name="BeforeTestMethod"/>
-        </methods>
-      </class> <!-- Test.BasicTest2 -->
       <class name="Test.BasicTest1">
         <methods>
           <include name="beforeClassMethod"/>
@@ -30,6 +17,19 @@
           <include name="BeforeTestMethod"/>
         </methods>
       </class> <!-- Test.BasicTest1 -->
+      <class name="Test.BasicTest2">
+        <methods>
+          <include name="beforeClassMethod"/>
+          <include name="BeforeSuiteMethod"/>
+          <include name="Method4"/>
+          <include name="AfterTestMethod"/>
+          <include name="BeforeMethodMethod"/>
+          <include name="AfterMethodMethod"/>
+          <include name="afterClassMethod"/>
+          <include name="AfterSuiteMethod"/>
+          <include name="BeforeTestMethod"/>
+        </methods>
+      </class> <!-- Test.BasicTest2 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
