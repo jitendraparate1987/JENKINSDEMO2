@@ -47,10 +47,13 @@ public void BeforeSuiteMethod(String browser) {
 	System.out.println("Before Suite");}
 	
 	if(browser.equalsIgnoreCase("Edge")) {
-		WebDriverManager.edgedriver().setup();)
+		WebDriverManager.edgedriver().setup();
 		driver = new EdgeDriver();
 		
 		System.out.println("Before Suite");}
+		
+	
+	
 	
 	}
 
