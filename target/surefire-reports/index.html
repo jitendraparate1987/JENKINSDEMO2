@@ -418,8 +418,8 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;Edge&quot;/&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;Test.BasicTest1&quot;/&gt;
       &lt;class name=&quot;Test.BasicTest2&quot;/&gt;
@@ -467,68 +467,68 @@ data.addRows(15);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Method4')
 data.setCell(0, 2, 'Test.BasicTest2')
-data.setCell(0, 3, 3509);
+data.setCell(0, 3, 8120);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'Method4')
 data.setCell(1, 2, 'Test.BasicTest2')
-data.setCell(1, 3, 1753);
+data.setCell(1, 3, 4956);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Method1')
-data.setCell(2, 2, 'Test.BasicTest1')
-data.setCell(2, 3, 1682);
+data.setCell(2, 1, 'Method4')
+data.setCell(2, 2, 'Test.BasicTest2')
+data.setCell(2, 3, 3616);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Method4')
-data.setCell(3, 2, 'Test.BasicTest2')
-data.setCell(3, 3, 1035);
+data.setCell(3, 1, 'Method1')
+data.setCell(3, 2, 'Test.BasicTest1')
+data.setCell(3, 3, 3584);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'Method4')
 data.setCell(4, 2, 'Test.BasicTest2')
-data.setCell(4, 3, 1030);
+data.setCell(4, 3, 2555);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'Method2')
 data.setCell(5, 2, 'Test.BasicTest1')
-data.setCell(5, 3, 871);
+data.setCell(5, 3, 2500);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'Method1')
 data.setCell(6, 2, 'Test.BasicTest1')
-data.setCell(6, 3, 849);
+data.setCell(6, 3, 1885);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'Method1')
 data.setCell(7, 2, 'Test.BasicTest1')
-data.setCell(7, 3, 814);
+data.setCell(7, 3, 1613);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'Method1')
 data.setCell(8, 2, 'Test.BasicTest1')
-data.setCell(8, 3, 530);
+data.setCell(8, 3, 1351);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'Method3')
-data.setCell(9, 2, 'Test.BasicTest1')
-data.setCell(9, 3, 1);
+data.setCell(9, 1, 'Method6')
+data.setCell(9, 2, 'Test.BasicTest2')
+data.setCell(9, 3, 4);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'Method7')
-data.setCell(10, 2, 'Test.BasicTest3')
-data.setCell(10, 3, 1);
+data.setCell(10, 1, 'Method3')
+data.setCell(10, 2, 'Test.BasicTest1')
+data.setCell(10, 3, 2);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'Method5')
-data.setCell(11, 2, 'Test.BasicTest2')
-data.setCell(11, 3, 1);
+data.setCell(11, 1, 'Method9')
+data.setCell(11, 2, 'Test.BasicTest3')
+data.setCell(11, 3, 2);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'Method6')
-data.setCell(12, 2, 'Test.BasicTest2')
-data.setCell(12, 3, 0);
+data.setCell(12, 1, 'Method7')
+data.setCell(12, 2, 'Test.BasicTest3')
+data.setCell(12, 3, 1);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'Method8')
-data.setCell(13, 2, 'Test.BasicTest3')
-data.setCell(13, 3, 0);
+data.setCell(13, 1, 'Method5')
+data.setCell(13, 2, 'Test.BasicTest2')
+data.setCell(13, 3, 1);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'Method9')
+data.setCell(14, 1, 'Method8')
 data.setCell(14, 2, 'Test.BasicTest3')
 data.setCell(14, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -582,243 +582,237 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">Test.BasicTest1</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">BeforeSuiteMethod(Chrome)</span>
+                <span class="method-name">BeforeSuiteMethod(Edge)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">BeforeTestMethod</span>
-                <span class="method-start">2220 ms</span>
+                <span class="method-start">5528 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClassMethod</span>
-                <span class="method-start">2570 ms</span>
+                <span class="method-start">6361 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">BeforeMethodMethod([TestResult name={null} status=CREATED method=BasicTest1.Method1()[pri:0, instance:Test.BasicTest1@2...)</span>
-                <span class="method-start">2579 ms</span>
+                <span class="method-start">6397 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Method1</span>
-                <span class="method-start">2592 ms</span>
+                <span class="method-start">6422 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">AfterMethodMethod([TestResult name=Method1 status=SKIP method=BasicTest1.Method1()[pri:0, instance:Test.BasicTest1@22e...)</span>
-                <span class="method-start">4276 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">Method1</span>
-                <span class="method-start">4287 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">BeforeMethodMethod([TestResult name={null} status=CREATED method=BasicTest1.Method1()[pri:0, instance:Test.BasicTest1@2...)</span>
-                <span class="method-start">4287 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method after">
-                <span class="method-name">AfterMethodMethod([TestResult name=Method1 status=SKIP method=BasicTest1.Method1()[pri:0, instance:Test.BasicTest1@22e...)</span>
-                <span class="method-start">5101 ms</span>
+                <span class="method-start">10011 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">BeforeMethodMethod([TestResult name={null} status=CREATED method=BasicTest1.Method1()[pri:0, instance:Test.BasicTest1@2...)</span>
-                <span class="method-start">5102 ms</span>
+                <span class="method-start">10052 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Method1</span>
-                <span class="method-start">5102 ms</span>
+                <span class="method-start">10055 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">AfterMethodMethod([TestResult name=Method1 status=SKIP method=BasicTest1.Method1()[pri:0, instance:Test.BasicTest1@22e...)</span>
-                <span class="method-start">5632 ms</span>
+                <span class="method-start">11941 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">BeforeMethodMethod([TestResult name={null} status=CREATED method=BasicTest1.Method1()[pri:0, instance:Test.BasicTest1@2...)</span>
-                <span class="method-start">5633 ms</span>
+                <span class="method-start">11943 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Method1</span>
+                <span class="method-start">11945 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethodMethod([TestResult name=Method1 status=SKIP method=BasicTest1.Method1()[pri:0, instance:Test.BasicTest1@22e...)</span>
+                <span class="method-start">13297 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethodMethod([TestResult name={null} status=CREATED method=BasicTest1.Method1()[pri:0, instance:Test.BasicTest1@2...)</span>
+                <span class="method-start">13299 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Method1</span>
-                <span class="method-start">5635 ms</span>
+                <span class="method-start">13301 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">AfterMethodMethod([TestResult name=Method1 status=FAILURE method=BasicTest1.Method1()[pri:0, instance:Test.BasicTest1@...)</span>
-                <span class="method-start">6640 ms</span>
+                <span class="method-start">15360 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">Method2</span>
-                <span class="method-start">6644 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">BeforeMethodMethod([TestResult name={null} status=CREATED method=BasicTest1.Method2()[pri:0, instance:Test.BasicTest1@2...)</span>
-                <span class="method-start">6644 ms</span>
+                <span class="method-start">15367 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Method2</span>
+                <span class="method-start">15368 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">AfterMethodMethod([TestResult name=Method2 status=SUCCESS method=BasicTest1.Method2()[pri:0, instance:Test.BasicTest1@...)</span>
-                <span class="method-start">7515 ms</span>
+                <span class="method-start">17869 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">BeforeMethodMethod([TestResult name={null} status=CREATED method=BasicTest1.Method3()[pri:0, instance:Test.BasicTest1@2...)</span>
-                <span class="method-start">7517 ms</span>
+                <span class="method-start">17873 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Method3</span>
-                <span class="method-start">7518 ms</span>
+                <span class="method-start">17874 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">AfterMethodMethod([TestResult name=Method3 status=SUCCESS method=BasicTest1.Method3()[pri:0, instance:Test.BasicTest1@...)</span>
-                <span class="method-start">7519 ms</span>
+                <span class="method-start">17877 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClassMethod</span>
-                <span class="method-start">7520 ms</span>
+                <span class="method-start">17883 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test.BasicTest2</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClassMethod</span>
-                <span class="method-start">7523 ms</span>
+                <span class="method-start">17889 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">BeforeMethodMethod([TestResult name={null} status=CREATED method=BasicTest2.Method4()[pri:0, instance:Test.BasicTest2@1...)</span>
-                <span class="method-start">7524 ms</span>
+                <span class="method-start">17891 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Method4</span>
-                <span class="method-start">7525 ms</span>
+                <span class="method-start">17893 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">AfterMethodMethod([TestResult name=Method4 status=SKIP method=BasicTest2.Method4()[pri:0, instance:Test.BasicTest2@1a1...)</span>
-                <span class="method-start">11034 ms</span>
+                <span class="method-start">26014 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">BeforeMethodMethod([TestResult name={null} status=CREATED method=BasicTest2.Method4()[pri:0, instance:Test.BasicTest2@1...)</span>
-                <span class="method-start">11036 ms</span>
+                <span class="method-start">26017 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Method4</span>
-                <span class="method-start">11037 ms</span>
+                <span class="method-start">26019 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">AfterMethodMethod([TestResult name=Method4 status=SKIP method=BasicTest2.Method4()[pri:0, instance:Test.BasicTest2@1a1...)</span>
-                <span class="method-start">12067 ms</span>
+                <span class="method-start">28574 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">BeforeMethodMethod([TestResult name={null} status=CREATED method=BasicTest2.Method4()[pri:0, instance:Test.BasicTest2@1...)</span>
-                <span class="method-start">12068 ms</span>
+                <span class="method-start">28576 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Method4</span>
-                <span class="method-start">12069 ms</span>
+                <span class="method-start">28577 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">AfterMethodMethod([TestResult name=Method4 status=SKIP method=BasicTest2.Method4()[pri:0, instance:Test.BasicTest2@1a1...)</span>
-                <span class="method-start">13822 ms</span>
+                <span class="method-start">33534 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethodMethod([TestResult name={null} status=CREATED method=BasicTest2.Method4()[pri:0, instance:Test.BasicTest2@1...)</span>
+                <span class="method-start">33539 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Method4</span>
-                <span class="method-start">13824 ms</span>
+                <span class="method-start">33541 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">BeforeMethodMethod([TestResult name={null} status=CREATED method=BasicTest2.Method4()[pri:0, instance:Test.BasicTest2@1...)</span>
-                <span class="method-start">13824 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">AfterMethodMethod([TestResult name=Method4 status=FAILURE method=BasicTest2.Method4()[pri:0, instance:Test.BasicTest2@...)</span>
-                <span class="method-start">15404 ms</span>
+                <span class="method-start">38494 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">Method5</span>
-                <span class="method-start">15405 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">BeforeMethodMethod([TestResult name={null} status=CREATED method=BasicTest2.Method5()[pri:0, instance:Test.BasicTest2@1...)</span>
-                <span class="method-start">15405 ms</span>
+                <span class="method-start">38497 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Method5</span>
+                <span class="method-start">38498 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">AfterMethodMethod([TestResult name=Method5 status=SUCCESS method=BasicTest2.Method5()[pri:0, instance:Test.BasicTest2@...)</span>
-                <span class="method-start">15406 ms</span>
+                <span class="method-start">38500 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">BeforeMethodMethod([TestResult name={null} status=CREATED method=BasicTest2.Method6()[pri:0, instance:Test.BasicTest2@1...)</span>
-                <span class="method-start">15407 ms</span>
+                <span class="method-start">38503 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Method6</span>
-                <span class="method-start">15408 ms</span>
+                <span class="method-start">38505 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">AfterMethodMethod([TestResult name=Method6 status=SUCCESS method=BasicTest2.Method6()[pri:0, instance:Test.BasicTest2@...)</span>
-                <span class="method-start">15409 ms</span>
+                <span class="method-start">38511 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClassMethod</span>
-                <span class="method-start">15411 ms</span>
+                <span class="method-start">38514 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test.BasicTest3</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClassMethod</span>
-                <span class="method-start">15412 ms</span>
+                <span class="method-start">38515 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">BeforeMethodMethod([TestResult name={null} status=CREATED method=BasicTest3.Method7()[pri:0, instance:Test.BasicTest3@5...)</span>
-                <span class="method-start">15413 ms</span>
+                <span class="method-start">38518 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Method7</span>
-                <span class="method-start">15414 ms</span>
+                <span class="method-start">38520 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">AfterMethodMethod([TestResult name=Method7 status=SUCCESS method=BasicTest3.Method7()[pri:0, instance:Test.BasicTest3@...)</span>
-                <span class="method-start">15415 ms</span>
+                <span class="method-start">38521 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">BeforeMethodMethod([TestResult name={null} status=CREATED method=BasicTest3.Method8()[pri:0, instance:Test.BasicTest3@5...)</span>
-                <span class="method-start">15416 ms</span>
+                <span class="method-start">38528 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Method8</span>
-                <span class="method-start">15417 ms</span>
+                <span class="method-start">38530 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">AfterMethodMethod([TestResult name=Method8 status=SUCCESS method=BasicTest3.Method8()[pri:0, instance:Test.BasicTest3@...)</span>
-                <span class="method-start">15417 ms</span>
+                <span class="method-start">38531 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">BeforeMethodMethod([TestResult name={null} status=CREATED method=BasicTest3.Method9()[pri:0, instance:Test.BasicTest3@5...)</span>
-                <span class="method-start">15419 ms</span>
+                <span class="method-start">38534 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Method9</span>
-                <span class="method-start">15419 ms</span>
+                <span class="method-start">38535 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">AfterMethodMethod([TestResult name=Method9 status=SUCCESS method=BasicTest3.Method9()[pri:0, instance:Test.BasicTest3@...)</span>
-                <span class="method-start">15420 ms</span>
+                <span class="method-start">38537 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassMethod</span>
+                <span class="method-start">38542 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test.BasicTest1</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">AfterTestMethod</span>
-                <span class="method-start">15421 ms</span>
+                <span class="method-start">38543 ms</span>
               </div> <!-- configuration-test after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Test.BasicTest3</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClassMethod</span>
-                <span class="method-start">15421 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Test.BasicTest1</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">AfterSuiteMethod</span>
-                <span class="method-start">15465 ms</span>
+                <span class="method-start">38728 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 15, Failures: 2, Errors: 0, Skipped: 6, Time elapsed: 16.944 s <<< FAILURE! - in TestSuite
-Test.BasicTest1.Method1  Time elapsed: 1.005 s  <<< FAILURE!
+Tests run: 15, Failures: 2, Errors: 0, Skipped: 6, Time elapsed: 41.876 s <<< FAILURE! - in TestSuite
+Test.BasicTest1.Method1  Time elapsed: 2.06 s  <<< FAILURE!
 java.lang.AssertionError: null
 	at Test.BasicTest1.Method1(BasicTest1.java:20)
 
-Test.BasicTest2.Method4  Time elapsed: 1.579 s  <<< FAILURE!
+Test.BasicTest2.Method4  Time elapsed: 4.949 s  <<< FAILURE!
 java.lang.AssertionError: null
 	at Test.BasicTest2.Method4(BasicTest2.java:20)
 

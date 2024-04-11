@@ -2,31 +2,31 @@
 <testng-results retried="6" ignored="8" total="23" passed="7" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-11T02:32:56 IST" name="Suite" finished-at="2024-04-11T02:33:09 IST" duration-ms="13201">
+  <suite started-at="2024-04-11T12:55:09 IST" name="Suite" finished-at="2024-04-11T12:55:42 IST" duration-ms="33017">
     <groups>
     </groups>
-    <test started-at="2024-04-11T02:32:56 IST" name="Test" finished-at="2024-04-11T02:33:09 IST" duration-ms="13201">
+    <test started-at="2024-04-11T12:55:09 IST" name="Test" finished-at="2024-04-11T12:55:42 IST" duration-ms="33017">
       <class name="Test.BasicTest1">
-        <test-method is-config="true" signature="BeforeSuiteMethod(java.lang.String)[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T02:32:54 IST" name="BeforeSuiteMethod" finished-at="2024-04-11T02:32:56 IST" duration-ms="2219" status="PASS">
+        <test-method is-config="true" signature="BeforeSuiteMethod(java.lang.String)[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T12:55:04 IST" name="BeforeSuiteMethod" finished-at="2024-04-11T12:55:09 IST" duration-ms="5525" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[Edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeSuiteMethod -->
-        <test-method is-config="true" signature="BeforeTestMethod()[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T02:32:56 IST" name="BeforeTestMethod" finished-at="2024-04-11T02:32:56 IST" duration-ms="334" status="PASS">
+        <test-method is-config="true" signature="BeforeTestMethod()[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T12:55:09 IST" name="BeforeTestMethod" finished-at="2024-04-11T12:55:10 IST" duration-ms="760" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTestMethod -->
-        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T02:32:56 IST" name="beforeClassMethod" finished-at="2024-04-11T02:32:56 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T12:55:10 IST" name="beforeClassMethod" finished-at="2024-04-11T12:55:10 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClassMethod -->
-        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T02:32:56 IST" name="BeforeMethodMethod" finished-at="2024-04-11T02:32:56 IST" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T12:55:10 IST" name="BeforeMethodMethod" finished-at="2024-04-11T12:55:10 IST" duration-ms="21" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethodMethod -->
-        <test-method retried="true" signature="Method1()[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T02:32:56 IST" name="Method1" finished-at="2024-04-11T02:32:58 IST" duration-ms="1682" status="SKIP">
+        <test-method retried="true" signature="Method1()[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T12:55:10 IST" name="Method1" finished-at="2024-04-11T12:55:14 IST" duration-ms="3584" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -85,7 +85,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Method1 -->
-        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T02:32:58 IST" name="AfterMethodMethod" finished-at="2024-04-11T02:32:58 IST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T12:55:14 IST" name="AfterMethodMethod" finished-at="2024-04-11T12:55:14 IST" duration-ms="40" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -96,7 +96,18 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethodMethod -->
-        <test-method retried="true" signature="Method1()[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T02:32:58 IST" name="Method1" finished-at="2024-04-11T02:32:59 IST" duration-ms="814" status="SKIP">
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T12:55:14 IST" name="BeforeMethodMethod" finished-at="2024-04-11T12:55:14 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=BasicTest1.Method1()[pri:0, instance:Test.BasicTest1@22ef9844] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodMethod -->
+        <test-method retried="true" signature="Method1()[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T12:55:14 IST" name="Method1" finished-at="2024-04-11T12:55:16 IST" duration-ms="1885" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -144,18 +155,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Method1 -->
-        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T02:32:58 IST" name="BeforeMethodMethod" finished-at="2024-04-11T02:32:58 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=BasicTest1.Method1()[pri:0, instance:Test.BasicTest1@22ef9844] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethodMethod -->
-        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T02:32:59 IST" name="AfterMethodMethod" finished-at="2024-04-11T02:32:59 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T12:55:16 IST" name="AfterMethodMethod" finished-at="2024-04-11T12:55:16 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -166,7 +166,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethodMethod -->
-        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T02:32:59 IST" name="BeforeMethodMethod" finished-at="2024-04-11T02:32:59 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T12:55:16 IST" name="BeforeMethodMethod" finished-at="2024-04-11T12:55:16 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -177,7 +177,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethodMethod -->
-        <test-method retried="true" signature="Method1()[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T02:32:59 IST" name="Method1" finished-at="2024-04-11T02:32:59 IST" duration-ms="530" status="SKIP">
+        <test-method retried="true" signature="Method1()[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T12:55:16 IST" name="Method1" finished-at="2024-04-11T12:55:17 IST" duration-ms="1351" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -225,7 +225,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Method1 -->
-        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T02:32:59 IST" name="AfterMethodMethod" finished-at="2024-04-11T02:32:59 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T12:55:17 IST" name="AfterMethodMethod" finished-at="2024-04-11T12:55:17 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -236,7 +236,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethodMethod -->
-        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T02:32:59 IST" name="BeforeMethodMethod" finished-at="2024-04-11T02:32:59 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T12:55:17 IST" name="BeforeMethodMethod" finished-at="2024-04-11T12:55:17 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -247,7 +247,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethodMethod -->
-        <test-method signature="Method1()[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T02:32:59 IST" name="Method1" finished-at="2024-04-11T02:33:00 IST" duration-ms="849" status="FAIL">
+        <test-method signature="Method1()[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T12:55:17 IST" name="Method1" finished-at="2024-04-11T12:55:19 IST" duration-ms="1613" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -295,7 +295,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Method1 -->
-        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T02:33:00 IST" name="AfterMethodMethod" finished-at="2024-04-11T02:33:00 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T12:55:19 IST" name="AfterMethodMethod" finished-at="2024-04-11T12:55:19 IST" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -306,11 +306,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethodMethod -->
-        <test-method signature="Method2()[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T02:33:00 IST" name="Method2" finished-at="2024-04-11T02:33:01 IST" duration-ms="871" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Method2 -->
-        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T02:33:00 IST" name="BeforeMethodMethod" finished-at="2024-04-11T02:33:00 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T12:55:19 IST" name="BeforeMethodMethod" finished-at="2024-04-11T12:55:19 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -321,7 +317,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethodMethod -->
-        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T02:33:01 IST" name="AfterMethodMethod" finished-at="2024-04-11T02:33:01 IST" duration-ms="1" status="PASS">
+        <test-method signature="Method2()[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T12:55:19 IST" name="Method2" finished-at="2024-04-11T12:55:22 IST" duration-ms="2500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method2 -->
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T12:55:22 IST" name="AfterMethodMethod" finished-at="2024-04-11T12:55:22 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -332,7 +332,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethodMethod -->
-        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T02:33:01 IST" name="BeforeMethodMethod" finished-at="2024-04-11T02:33:01 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T12:55:22 IST" name="BeforeMethodMethod" finished-at="2024-04-11T12:55:22 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -343,11 +343,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethodMethod -->
-        <test-method signature="Method3()[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T02:33:01 IST" name="Method3" finished-at="2024-04-11T02:33:01 IST" duration-ms="1" status="PASS">
+        <test-method signature="Method3()[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T12:55:22 IST" name="Method3" finished-at="2024-04-11T12:55:22 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Method3 -->
-        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T02:33:01 IST" name="AfterMethodMethod" finished-at="2024-04-11T02:33:01 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T12:55:22 IST" name="AfterMethodMethod" finished-at="2024-04-11T12:55:22 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -358,25 +358,25 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethodMethod -->
-        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T02:33:01 IST" name="afterClassMethod" finished-at="2024-04-11T02:33:01 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T12:55:22 IST" name="afterClassMethod" finished-at="2024-04-11T12:55:22 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClassMethod -->
-        <test-method is-config="true" signature="AfterTestMethod()[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T02:33:09 IST" name="AfterTestMethod" finished-at="2024-04-11T02:33:09 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="AfterTestMethod()[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T12:55:42 IST" name="AfterTestMethod" finished-at="2024-04-11T12:55:42 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTestMethod -->
-        <test-method is-config="true" signature="AfterSuiteMethod()[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T02:33:09 IST" name="AfterSuiteMethod" finished-at="2024-04-11T02:33:10 IST" duration-ms="699" status="PASS">
+        <test-method is-config="true" signature="AfterSuiteMethod()[pri:0, instance:Test.BasicTest1@22ef9844]" started-at="2024-04-11T12:55:42 IST" name="AfterSuiteMethod" finished-at="2024-04-11T12:55:44 IST" duration-ms="1255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterSuiteMethod -->
       </class> <!-- Test.BasicTest1 -->
       <class name="Test.BasicTest2">
-        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T02:33:01 IST" name="beforeClassMethod" finished-at="2024-04-11T02:33:01 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T12:55:22 IST" name="beforeClassMethod" finished-at="2024-04-11T12:55:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClassMethod -->
-        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T02:33:01 IST" name="BeforeMethodMethod" finished-at="2024-04-11T02:33:01 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T12:55:22 IST" name="BeforeMethodMethod" finished-at="2024-04-11T12:55:22 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -387,7 +387,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethodMethod -->
-        <test-method retried="true" signature="Method4()[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T02:33:01 IST" name="Method4" finished-at="2024-04-11T02:33:05 IST" duration-ms="3509" status="SKIP">
+        <test-method retried="true" signature="Method4()[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T12:55:22 IST" name="Method4" finished-at="2024-04-11T12:55:30 IST" duration-ms="8120" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -435,7 +435,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Method4 -->
-        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T02:33:05 IST" name="AfterMethodMethod" finished-at="2024-04-11T02:33:05 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T12:55:30 IST" name="AfterMethodMethod" finished-at="2024-04-11T12:55:30 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -446,7 +446,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethodMethod -->
-        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T02:33:05 IST" name="BeforeMethodMethod" finished-at="2024-04-11T02:33:05 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T12:55:30 IST" name="BeforeMethodMethod" finished-at="2024-04-11T12:55:30 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -457,7 +457,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethodMethod -->
-        <test-method retried="true" signature="Method4()[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T02:33:05 IST" name="Method4" finished-at="2024-04-11T02:33:06 IST" duration-ms="1030" status="SKIP">
+        <test-method retried="true" signature="Method4()[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T12:55:30 IST" name="Method4" finished-at="2024-04-11T12:55:32 IST" duration-ms="2555" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -505,7 +505,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Method4 -->
-        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T02:33:06 IST" name="AfterMethodMethod" finished-at="2024-04-11T02:33:06 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T12:55:32 IST" name="AfterMethodMethod" finished-at="2024-04-11T12:55:32 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -516,7 +516,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethodMethod -->
-        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T02:33:06 IST" name="BeforeMethodMethod" finished-at="2024-04-11T02:33:06 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T12:55:32 IST" name="BeforeMethodMethod" finished-at="2024-04-11T12:55:32 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -527,7 +527,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethodMethod -->
-        <test-method retried="true" signature="Method4()[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T02:33:06 IST" name="Method4" finished-at="2024-04-11T02:33:08 IST" duration-ms="1753" status="SKIP">
+        <test-method retried="true" signature="Method4()[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T12:55:32 IST" name="Method4" finished-at="2024-04-11T12:55:37 IST" duration-ms="4956" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -575,7 +575,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Method4 -->
-        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T02:33:08 IST" name="AfterMethodMethod" finished-at="2024-04-11T02:33:08 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T12:55:37 IST" name="AfterMethodMethod" finished-at="2024-04-11T12:55:37 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -586,7 +586,18 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethodMethod -->
-        <test-method signature="Method4()[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T02:33:08 IST" name="Method4" finished-at="2024-04-11T02:33:09 IST" duration-ms="1035" status="FAIL">
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T12:55:37 IST" name="BeforeMethodMethod" finished-at="2024-04-11T12:55:37 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=BasicTest2.Method4()[pri:0, instance:Test.BasicTest2@1a18644] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodMethod -->
+        <test-method signature="Method4()[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T12:55:37 IST" name="Method4" finished-at="2024-04-11T12:55:41 IST" duration-ms="3616" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -634,18 +645,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Method4 -->
-        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T02:33:08 IST" name="BeforeMethodMethod" finished-at="2024-04-11T02:33:08 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=BasicTest2.Method4()[pri:0, instance:Test.BasicTest2@1a18644] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethodMethod -->
-        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T02:33:09 IST" name="AfterMethodMethod" finished-at="2024-04-11T02:33:09 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T12:55:42 IST" name="AfterMethodMethod" finished-at="2024-04-11T12:55:42 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -656,11 +656,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethodMethod -->
-        <test-method signature="Method5()[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T02:33:09 IST" name="Method5" finished-at="2024-04-11T02:33:09 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Method5 -->
-        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T02:33:09 IST" name="BeforeMethodMethod" finished-at="2024-04-11T02:33:09 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T12:55:42 IST" name="BeforeMethodMethod" finished-at="2024-04-11T12:55:42 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -671,7 +667,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethodMethod -->
-        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T02:33:09 IST" name="AfterMethodMethod" finished-at="2024-04-11T02:33:09 IST" duration-ms="1" status="PASS">
+        <test-method signature="Method5()[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T12:55:42 IST" name="Method5" finished-at="2024-04-11T12:55:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method5 -->
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T12:55:42 IST" name="AfterMethodMethod" finished-at="2024-04-11T12:55:42 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -682,7 +682,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethodMethod -->
-        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T02:33:09 IST" name="BeforeMethodMethod" finished-at="2024-04-11T02:33:09 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T12:55:42 IST" name="BeforeMethodMethod" finished-at="2024-04-11T12:55:42 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -693,11 +693,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethodMethod -->
-        <test-method signature="Method6()[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T02:33:09 IST" name="Method6" finished-at="2024-04-11T02:33:09 IST" duration-ms="0" status="PASS">
+        <test-method signature="Method6()[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T12:55:42 IST" name="Method6" finished-at="2024-04-11T12:55:42 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Method6 -->
-        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T02:33:09 IST" name="AfterMethodMethod" finished-at="2024-04-11T02:33:09 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T12:55:42 IST" name="AfterMethodMethod" finished-at="2024-04-11T12:55:42 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -708,17 +708,17 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethodMethod -->
-        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T02:33:09 IST" name="afterClassMethod" finished-at="2024-04-11T02:33:09 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:Test.BasicTest2@1a18644]" started-at="2024-04-11T12:55:42 IST" name="afterClassMethod" finished-at="2024-04-11T12:55:42 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClassMethod -->
       </class> <!-- Test.BasicTest2 -->
       <class name="Test.BasicTest3">
-        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:Test.BasicTest3@5acf93bb]" started-at="2024-04-11T02:33:09 IST" name="beforeClassMethod" finished-at="2024-04-11T02:33:09 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:Test.BasicTest3@5acf93bb]" started-at="2024-04-11T12:55:42 IST" name="beforeClassMethod" finished-at="2024-04-11T12:55:42 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClassMethod -->
-        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest3@5acf93bb]" started-at="2024-04-11T02:33:09 IST" name="BeforeMethodMethod" finished-at="2024-04-11T02:33:09 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest3@5acf93bb]" started-at="2024-04-11T12:55:42 IST" name="BeforeMethodMethod" finished-at="2024-04-11T12:55:42 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -729,11 +729,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethodMethod -->
-        <test-method signature="Method7()[pri:0, instance:Test.BasicTest3@5acf93bb]" started-at="2024-04-11T02:33:09 IST" name="Method7" finished-at="2024-04-11T02:33:09 IST" duration-ms="1" status="PASS">
+        <test-method signature="Method7()[pri:0, instance:Test.BasicTest3@5acf93bb]" started-at="2024-04-11T12:55:42 IST" name="Method7" finished-at="2024-04-11T12:55:42 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Method7 -->
-        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest3@5acf93bb]" started-at="2024-04-11T02:33:09 IST" name="AfterMethodMethod" finished-at="2024-04-11T02:33:09 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest3@5acf93bb]" started-at="2024-04-11T12:55:42 IST" name="AfterMethodMethod" finished-at="2024-04-11T12:55:42 IST" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -744,7 +744,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethodMethod -->
-        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest3@5acf93bb]" started-at="2024-04-11T02:33:09 IST" name="BeforeMethodMethod" finished-at="2024-04-11T02:33:09 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest3@5acf93bb]" started-at="2024-04-11T12:55:42 IST" name="BeforeMethodMethod" finished-at="2024-04-11T12:55:42 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -755,11 +755,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethodMethod -->
-        <test-method signature="Method8()[pri:0, instance:Test.BasicTest3@5acf93bb]" started-at="2024-04-11T02:33:09 IST" name="Method8" finished-at="2024-04-11T02:33:09 IST" duration-ms="0" status="PASS">
+        <test-method signature="Method8()[pri:0, instance:Test.BasicTest3@5acf93bb]" started-at="2024-04-11T12:55:42 IST" name="Method8" finished-at="2024-04-11T12:55:42 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Method8 -->
-        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest3@5acf93bb]" started-at="2024-04-11T02:33:09 IST" name="AfterMethodMethod" finished-at="2024-04-11T02:33:09 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest3@5acf93bb]" started-at="2024-04-11T12:55:42 IST" name="AfterMethodMethod" finished-at="2024-04-11T12:55:42 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -770,7 +770,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethodMethod -->
-        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest3@5acf93bb]" started-at="2024-04-11T02:33:09 IST" name="BeforeMethodMethod" finished-at="2024-04-11T02:33:09 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="BeforeMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest3@5acf93bb]" started-at="2024-04-11T12:55:42 IST" name="BeforeMethodMethod" finished-at="2024-04-11T12:55:42 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -781,11 +781,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethodMethod -->
-        <test-method signature="Method9()[pri:0, instance:Test.BasicTest3@5acf93bb]" started-at="2024-04-11T02:33:09 IST" name="Method9" finished-at="2024-04-11T02:33:09 IST" duration-ms="0" status="PASS">
+        <test-method signature="Method9()[pri:0, instance:Test.BasicTest3@5acf93bb]" started-at="2024-04-11T12:55:42 IST" name="Method9" finished-at="2024-04-11T12:55:42 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Method9 -->
-        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest3@5acf93bb]" started-at="2024-04-11T02:33:09 IST" name="AfterMethodMethod" finished-at="2024-04-11T02:33:09 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:Test.BasicTest3@5acf93bb]" started-at="2024-04-11T12:55:42 IST" name="AfterMethodMethod" finished-at="2024-04-11T12:55:42 IST" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -796,7 +796,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethodMethod -->
-        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:Test.BasicTest3@5acf93bb]" started-at="2024-04-11T02:33:09 IST" name="afterClassMethod" finished-at="2024-04-11T02:33:09 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:Test.BasicTest3@5acf93bb]" started-at="2024-04-11T12:55:42 IST" name="afterClassMethod" finished-at="2024-04-11T12:55:42 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClassMethod -->

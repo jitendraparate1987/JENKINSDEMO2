@@ -47,7 +47,7 @@ public void BeforeSuiteMethod(String browser) {
 	System.out.println("Before Suite");}
 	
 	if(browser.equalsIgnoreCase("Edge")) {
-		WebDriverManager.edgedriver().setup();
+		System.setProperty("webdriver.edge.driver", System.getProperty("user.dir")+ "/drivers/msedgedriver.exe");
 		driver = new EdgeDriver();
 		
 		System.out.println("Before Suite");}
