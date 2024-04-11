@@ -4,6 +4,7 @@ import java.io.File;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -44,6 +45,12 @@ public void BeforeSuiteMethod(String browser) {
 	driver = new ChromeDriver();
 	
 	System.out.println("Before Suite");}
+	
+	if(browser.equalsIgnoreCase("Edge")) {
+		WebDriverManager.edgedriver().setup();)
+		driver = new EdgeDriver();
+		
+		System.out.println("Before Suite");}
 	
 	}
 
